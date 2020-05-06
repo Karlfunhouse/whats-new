@@ -1,0 +1,33 @@
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  align-items: center;
+  margin: 1%;
+}
+
+.title {
+  color: white;
+  font-size: 1.5em;
+  margin: 1%;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.nav-button {
+  width: 90%;
+  height: 40px;
+  margin: 2% 2%;
+  background-color: #141527;
+  color: white;
+  border: none;
+  font-size: 1em;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+  background-color: purple;
+  border-radius: 0 20px 20px 0;
+}
