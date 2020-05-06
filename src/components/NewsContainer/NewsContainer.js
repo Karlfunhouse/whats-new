@@ -16,7 +16,7 @@ const NewsContainer = (props) => {
   })
 
     return (
-      <section>
+      <section className="news-container">
           {localArticles}
       </section>
     )

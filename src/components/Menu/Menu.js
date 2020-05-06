@@ -5,6 +5,7 @@ import './Menu.css'
 const Menu = () => {
   return(
     <aside className="nav-menu">
+      <h1 className="title">What's<span className="yellow"> News?</span></h1>
       <button className="nav-button" id="local-news">Local News</button>
       <button className="nav-button" id="technology">Technology</button>
       <button className="nav-button" id="entertainment">Entertainment</button>

@@ -5,19 +5,16 @@ import './SearchForm.css';
 class SearchForm extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      id: null,
-      headline: '',
-      description: '',
-      img: '',
-      url: ''
+    }
+
+    render() {
+      return (
+        <header className="header">
+          <input type="text" id="search" className="search-bar" name="search" placeholder="Search for news article here." />
+          <button className="search-button">Search</button>
+        </header>
+      )
     }
   }
-  //
-  // handleChange = (e) => {
-  //   this.setState()
-  // }
-
-}
 
 export default SearchForm;
