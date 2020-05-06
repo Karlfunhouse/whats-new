@@ -7,6 +7,10 @@
 
 .search-bar {
   width: 33%;
+  background-color: #141527;
+  border: none;
+  font-size: 1em;
+  color: white;
 }
 
 .search-button {
