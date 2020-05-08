@@ -4,20 +4,18 @@ import NewsArticle from '../NewsArticle/NewsArticle'
 
 // NEWSCONTAINER COMPONENT CODE GOES HERE
 const NewsContainer = (props) => {
-  console.log("props", props);
-  const localArticles = props.local.local.map(article => {
+  const articles =
+  props.currentArticles.map(article => {
     return <NewsArticle
       key={article.id}
-      headline={article.headline}
-      img={article.img}
-      description={article.description}
-      url={article.url}
+      {...article}
     />
   })
 
+
     return (
       <section className="news-container">
-          {localArticles}
+          {articles}
       </section>
     )
 }
